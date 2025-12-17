@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>С днём рождения, Папа!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/icon.png" type="image/png">
+</head>
+<body>
+
+    <div class="bg">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+        <div class="circle c4"></div>
+        <div class="pattern"></div>
+        <div class="icon-bg i1">⚡</div>
+        <div class="icon-bg i2">🏔️</div>
+        <div class="icon-bg i3">⚙️</div>
+        <div class="icon-bg i4">🎯</div>
+        <div class="icon-bg i5">🔧</div>
+        <div class="icon-bg i6">⭐</div>
+        <div class="icon-bg i7">🏆</div>
+        <div class="icon-bg i8">💪</div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <audio id="music" src="music.mp3"></audio>
+
+    <div class="container">
+        <h1>С днём рождения, Папа! 🎉</h1>
+        <p class="subtitle">Вам сегодня <span class="age">47</span> лет - и впереди ещё столько всего и больше✨</p>
+
+        <div class="icons">
+        <span>💙</span>
+        <span>🏆</span>
+        <span>👨‍👩‍👧‍👦</span>
+        <span>✨</span>
+        </div>
+
+        <div class="gallery">
+        <div class="photo"><img src="assets/photo1.jpg" alt="Фото 1"></div>
+        <div class="photo"><img src="assets/photo2.jpg" alt="Фото 2"></div>
+        <div class="photo"><img src="assets/photo3.jpg" alt="Фото 3"></div>
+        <div class="photo"><img src="assets/photo4.jpg" alt="Фото 4"></div>
+        <div class="photo"><img src="assets/photo5.jpg" alt="Фото 5"></div>
+        <div class="photo"><img src="assets/photo6.jpg" alt="Фото 6"></div>
+        <div class="photo"><img src="assets/photo7.jpg" alt="Фото 7"></div>
+        <div class="photo"><img src="assets/photo8.jpg" alt="Фото 8"></div>
+        <div class="photo"><img src="assets/photo9.png" alt="Фото 9"></div>
+        <div class="photo"><img src="assets/photo10.jpg" alt="Фото 10"></div>
+        <div class="photo"><img src="assets/photo11.jpg" alt="Фото 11"></div>
+        <div class="photo"><img src="assets/photo12.jpg" alt="Фото 12"></div>
+        </div>
+
+        <div id="action-area">
+        <button id="start">Открытка 🎁</button>
+        </div>
+
+        <div class="message" id="text"></div>
+
+        <div class="signature">
+        Со всем уважением и от всего сердца,<br>
+        Ваш сын, Амир 💙
+        </div>
+    </div>
+
+    <div class="modal" id="modal"><img></div>
+    <script src="script.js"></script>
+</body>
+</html>
